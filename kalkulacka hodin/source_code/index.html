@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počítač hodin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulačka hodin</h1>
+    <p>Tenhle program sečte odpracované hodiny na základě začátku a konce směny, celkový počet hodin zobrazí a přebytečný počet hodin převede na částku v CZK, kde 1 hodina = 100 CZK </p>
+    
+    <button onclick="generatePDF()">Vygeneruj PDF soubor</button>
+    
+    
+    <script src="https://unpkg.com/jspdf-invoice-template@1.4.0/dist/index.js"></script>
+    <script>
+        function generatePDF(){
+    var pdfObject = jsPDFInvoiceTemplate.default(props);
+
+    console.log("PDF soubor byl vytvořen ", pdfObject);
+}
+
+var props = {
+    outputType: jsPDFInvoiceTemplate.OutputType.Save,
+    returnJsPDFDocObject: true,
+    fileName: "Výpočet hodin",
+    orientationLandscape: false,
+    compress: true,
+    let: item = "dwojr",
+    let: index = 1,
+        table: Array.from(Array(10), (item, index)=>([
+            index + 1,
+            "There are many variations ",
+            "Lorem Ipsum is simply dummy text dummy text ",
+            200.5,
+            4.5,
+            "m2",
+            400.5
+        ])),
+        additionalRows: [{
+            col1: 'Total:',
+            col2: '145,250.50',
+            col3: 'ALL',
+            style: {
+                fontSize: 14 //optional, default 12
+            }
+        },
+        {
+            col1: 'VAT:',
+            col2: '20',
+            col3: '%',
+            style: {
+                fontSize: 10 //optional, default 12
+            }
+        },
+        {
+            col1: 'SubTotal:',
+            col2: '116,199.90',
+            col3: 'ALL',
+            style: {
+                fontSize: 10 //optional, default 12
+            }
+        }],
+    }
+    </script>
+
+</body>
+</html>
