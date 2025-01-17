@@ -2,7 +2,7 @@
 Webova aplikace na počítání odpracovaných hodin, po 160 hodinách se spočítá plat za přesčas při udané sazbe za hodinu.
 Textový soubor, do kterého jsem průběžně psal a blogoval:
 
-jdu udelat tatkovi program na pocitani odpracovanych hodin v mesici
+jdu udelat koncovému zákazníkovi program na pocitani odpracovanych hodin v mesici
 
 17.1.2025 16:33
 jako první si otevřeme předlohu kterou poslal a budeme to brat jako zadani, pote si vybere jak to budeme delat, jestli jako konzolovou aplikaci, nativni
@@ -16,7 +16,7 @@ precteme si zadani a podivame se na planek, rozmyslim si finalne v jakem jazyce 
 pro pripadne otázky budu používat google anebo perplexity.ai.
 
 16:39
-nakonec jsme se rozhodli pro konzolovou aplikaci, kazdopadne kdykoliv v pripade nespokojeni muzeme prejit na jinaci jazyk anebo styl. tatka puvodne chtěl webovou aplikaci,
+nakonec jsme se rozhodli pro konzolovou aplikaci, kazdopadne kdykoliv v pripade nespokojeni muzeme prejit na jinaci jazyk anebo styl. koncový zákazník puvodne chtěl webovou aplikaci,
 ale uz jsem to zkousel a napojeni na databazi a vytvoreni pdf souboru mi neslo a program nedelal to co mel. strukturu si porad nejak lehce pamatuju takze akorát budu navazovat na to co jsem delal včera.
 
 16:41
@@ -36,7 +36,9 @@ meneni hudby z green day na blink-182 :D
 17:06
 napsaný základ v html kde je zaroven napsany vyznam appky, budu pokracovat vlozenim scriptu z knihovny jspdf, funkci napisu do souboru script.js a pote ho zavolam z html souboru...
 nic těžkého. jspdf vlozim prikazem který vlozim do telicka html, priakz vypada takhle:
+```
 <script src="https://unpkg.com/jspdf-invoice-template@1.4.0/dist/index.js"></script>
+```
 pote uz jenom pod stejnym prikazem zavolam na script.js a do nej zacnu psat funkce a vypocty.
 
 17:15
