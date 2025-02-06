@@ -60,7 +60,7 @@ který bude nahrany v tomhle txt. tak jdeme na to rychle at to mame co nejdriv z
 muzu na cestách zkontrolovat a hledat chyby a premyslet nad resenim, zatím potrebuju udelat novou tabulku kde se budou vypisovat hodnoty podle zadadni, uplne nevim jak to mam ještě vymyslene, asi
 si budu muset udelat nakres a podle nej se pote ridit, zatím nechavam projekt otevreny a delam novy repozitar na githubu.
 <br>
-6.2.2025<br>
+6.2.2025<br><br>
 <strong>20:00</strong><br>
 takže, po dlouhe dobe zase pridavam update, pracoval jsem na tom a nestihal jsem nebo jsem si nevzpomnel si psat commit changes do poznamkkoveho bloku a potom to sem hazet. zkousel jsem to teda delat v c#, ale po tom
 co jsem se nedomluvil s ironPDF jsem se na to vykašlal a řekl si ze to musi jit pres ten javascript. dospel jsem ke kodu, kterz problem resi a dela aplikaci, ktera by mela fungovat tak jak zakaznik chce. jeste mi
